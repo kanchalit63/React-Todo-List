@@ -18,7 +18,7 @@ function EditTodoform({editTodo,task}) {
     return (
         <form action="" className='TodoForm' onSubmit={handleSubmit}>
             <input type="text" name="" id="" className='todo-input' placeholder='Update Task' value={value} onChange={(e) => setValue(e.target.value)} />
-            <button type='submit' className='todo-btn'>Update Task</button>
+            <button type='submit' className='todo-btn'>แก้ไขข้อมูล</button>
         </form>
     )
 }

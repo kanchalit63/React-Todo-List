@@ -40,7 +40,7 @@ function TodoWrapper() {
 
     return (
         <div className="TodoWrapper">
-        <h1>Get Things Done !</h1>
+        <h1>มาทำสิ่งต่าง ๆ ให้เสร็จกันเถอะ!!</h1>
         <TodoForm addTodo={addTodo} />
         {/* หน้าจอแสดงผลของ TodoList */}
         {todos.map((todo) =>

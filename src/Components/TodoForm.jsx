@@ -17,8 +17,8 @@ function TodoForm({addTodo}) {
 
     return (
         <form action="" className='TodoForm' onSubmit={handleSubmit}>
-            <input type="text" name="" id="" className='todo-input' placeholder='What is the task to day?' value={value} onChange={(e) => setValue(e.target.value)} />
-            <button type='submit' className='todo-btn'>Add Task</button>
+            <input type="text" name="" id="" className='todo-input' placeholder='ไหนวันนี้จะทำอะไรบ้าง' value={value} onChange={(e) => setValue(e.target.value)} />
+            <button type='submit' className='todo-btn'>เพิ่มข้อมูล</button>
         </form>
     )
 }
